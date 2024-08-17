@@ -18,6 +18,10 @@ public class ejercicio2 {
 
         Scanner sp = new Scanner(System.in);
         System.out.println("Ingresa tu primer numero");
+        int num1 = sp.nextInt();
+        System.out.println("Ingresa tu Segundo numero");
+        int num2 = sp.nextInt();
+        System.out.println("Su suma es: " + (num1+num2));
     }
 
 }
